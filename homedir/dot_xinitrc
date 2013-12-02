@@ -1,0 +1,5 @@
+export force_s3tc_enable=true
+xmodmap /home/bkero/.Xmodmap
+/usr/bin/urxvtd -q -f -o
+/usr/bin/urxvtc -pe kuake
+/usr/bin/ssh-agent /home/bkero/code/herbstluftwm/herbstluftwm -c ~/.config/herbstluftwm/autostart

@@ -10,3 +10,11 @@ URxvt*tintColor: black
 URxvt*shading: 12
 URxvt*imLocale: en_US.utf8
 URxvt*transparent: true
+URxvt*perl-ext: clipboard,font-size
+!URxvt*font: xft:Droid Sans Mono:pixelsize=15
+URxvt*font: xft:Terminus:pixelsize=15
+URxvt*urllauncher: firefox
+URxvt.keysym.C-Up:     perl:font-size:increase
+URxvt.keysym.C-Down:     perl:font-size:decrease
+URxvt.inputMethod: ibus
+URxvt.preeditType: OverTheSpot
